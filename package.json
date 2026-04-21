@@ -1,0 +1,18 @@
+{
+  "name": "database-isolation-preview-environments",
+  "version": "0.1.0",
+  "description": "Companion code for the Autonoma blog post 'Database Isolation for Preview Environment Testing: The Full Spectrum'. Reference implementation of an Autonoma Environment Factory endpoint: HMAC-SHA256 request verification, discover/up/down lifecycle handlers, and run-scoped entity cleanup.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/environment-factory.js",
+  "scripts": {
+    "start": "node examples/example-app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
